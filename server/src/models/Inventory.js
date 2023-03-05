@@ -7,10 +7,12 @@ const Inventory = sequelize.define("inventory", {
     quantity:{
         type: DataTypes.INTEGER,
         allowNull: false,
+        defaultValue: 0,
     },
     quantitySold:{
         type: DataTypes.INTEGER,
         allowNull: false,
+        defaultValue: 0,
     },
     
 });
